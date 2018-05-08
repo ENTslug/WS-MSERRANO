@@ -1,0 +1,19 @@
+{
+  "name": "WS-MSERRANO",
+  "version": "1.0.0",
+  "description": "backend app",
+  "main": "index.js",
+  "repository": "https://github.com/mserrano-dev/WS-MSERRANO.git",
+  "author": "ENTslug",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "scripts": {
+    "test": "php unittests/test_coverage.php unittests/",
+    "php:cov": "php unittests/test_coverage.php unittests/",
+    "php:cov:s": "php unittests/test_coverage.php unittests/ --silent",
+    "php": "yarn watch 'php unittests/test_runner.php unittests/'"
+  },
+  "devDependencies": {
+    "watch": "1.0.2"
+  }
+}
